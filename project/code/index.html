@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(18, 3, 22);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(21, 4, 29);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-size: 1.5rem;
+
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: rgb(233, 120, 120);
+            font-size: 1.56rem;
+
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px;
+            align-items: center;
+
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            /* width:50%; */
+            font-size: 3.5rem;
+            /* margin:190px 0; */
+        }
+
+        .rightsection img {
+            width: 120%;
+
+            margin: 50px 0;
+            /* background-color: brown; */
+
+        }
+
+        .purple {
+            color: rgb(152, 67, 231);
+        }
+
+        #element {
+            color: rgb(152, 67, 231);
+
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(26, 5, 46);
+            height: 0.3rem;
+            margin: 60px 150px
+        }
+
+        .secondsection h1 {
+            font-size: 2.5rem;
+        }
+
+        .grey {
+            color: grey
+        }
+
+        /* .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+
+        }
+
+        .secondsection .box .vertical {
+            height: 120px;
+            width: 1px;
+            background-color: rgb(243, 100, 184);
+            margin: 0 100px;
+        } */
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+
+        .image-container {
+            position: relative;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .box {
+            margin-left: 20px;
+            /* Adjust the margin as needed */
+            width: 300px;
+            /* Adjust the width as needed */
+            height: 200px;
+            /* Adjust the height as needed */
+            background-color: #3f1131;
+            border: 0px 2px 3px solid #dacece;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-evenly;
+            text-color: brown;
+            align-items: center;
+            color: rgb(238, 227, 227);
+            font-size: 1.8rem;
+            transition:all 1s ease-in-out;
+        }
+
+        .box:hover {
+            background-color: rgb(136, 107, 163);
+
+           
+            transform: translateY(-20px)
+        }
+
+        footer {
+            background-color: #0c0108;
+            height: 300px;
+            margin-top: 3%;
+        }
+
+
+        .footer {
+
+            display: flex;
+            padding: 23px 122px;
+            font-size: 1.2rem;
+            color: #dacece;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 230px;
+        }
+
+        footer .text-center {
+            text-align: center;
+            color: grey;
+            margin-top: 100px;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Simran's portfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hy, My name is <span class="purple">Simran</span>
+                <div>and I am a passionate 
+                </div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="images/PHP_Development_Solution_img1.png" alt="">
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="grey">What I have done so far?</span>
+            <h1>Known Languages</h1>
+            <div class="container">
+                <div class="image-container">
+                    <img src="images/WebsiteDevelopment-PHP.webp" alt="">
+                </div>
+
+                <div class="box">HTML
+
+                </div>
+                <div class="box">CSS</div>
+
+
+                <div class="box">JAVASCRIPT</div>
+                <div class="box">PYTHON</div>
+
+            </div>
+
+
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Simran Jha portfolio</h3>
+
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Linked In</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+
+
+
+            <div class="third">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Linked In</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Linked In</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center">
+            www.simranjhaportfolio.com | All Rights Reserved
+        </div>
+
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer .', '&amp; a Unity Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
